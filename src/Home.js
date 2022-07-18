@@ -48,6 +48,9 @@ function Home (){
     return (
         
         <body className="quote-design" style={{color, backgroundColor: color, minHeight: "100vh"}}>
+            <div className="title">
+                <h1 style={{color: "white"}}>Random Quote Generator</h1>
+            </div>
         <div className="container">
             <div id="quote-box">
                 <div id="quote-text">
@@ -66,7 +69,7 @@ function Home (){
                             'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
                             encodeURIComponent('"' + randomQuotes.text + '" ' + randomQuotes.author)
                         }
-                        id="tweet-quote" className="quote-design" target="_blank" style={{backgroundColor: color}}><i className="fab fa-twitter"></i></a>
+                        id="tweet-quote" className="quote-design" target="_blank" rel="noreferrer" style={{backgroundColor: color}}><i className="fab fa-twitter"></i></a>
                         <a href={
                             'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=' +
                             encodeURIComponent(randomQuotes.author) +
@@ -74,7 +77,7 @@ function Home (){
                             encodeURIComponent(randomQuotes.text) +
                             '&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button'
                         }
-                        id="tumbler-quote" className="quote-design"  target="_blank" style={{backgroundColor: color}}><i className="fab fa-tumblr"></i></a>
+                        id="tumbler-quote" className="quote-design"  target="_blank" rel="noreferrer" style={{backgroundColor: color}}><i className="fab fa-tumblr"></i></a>
                     </div>
 
                     <div className="footer-btn">

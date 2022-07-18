@@ -1,6 +1,6 @@
 body{
-  background-color: aqua;
-  color: aqua;
+  background-color: rgb(40, 171, 171);
+  color: rgb(40, 171, 171);
   font-weight: 400;
   margin: auto;
 }
@@ -12,6 +12,11 @@ body{
   height: 650px;
   
 
+}
+
+.title{
+  text-align: center;
+  padding-top: 50px;
 }
 
 #quote-box{
@@ -56,7 +61,7 @@ padding-top: 20px;
 
 #tweet-quote, #tumbler-quote, #new-quote{
 border-radius: 3px;
-background-color: aqua;
+background-color: rgb(40, 171, 171);
 color: #fff;
 }
 
