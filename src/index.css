@@ -3,6 +3,7 @@ body{
   color: rgb(40, 171, 171);
   font-weight: 400;
   margin: auto;
+  overflow: hidden;
 }
 
 .container{
@@ -77,3 +78,13 @@ font-weight: bold;
 padding: 2px 4px;
 }
 
+/* Media Queries */
+@media (max-width: 608px) {
+  #quote-box{
+    width: 100%;
+  }
+
+  #quote-text {
+    width: 100%;
+    }
+}
